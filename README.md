@@ -29,8 +29,7 @@ npm run deploy
 
 # To create skill on Alexa Console
 
-1. Go to the Alexa Console: https://developer.amazon.com/alexa/console
-2. Create New Skill
-3. Pick a Name: Choose "Custom" Skill type
-4. Pick Fact Skill
-5. Click Endpoint on the left-hand navigation and set the ARN to your own Lambda function ARN
+1. Go to the Alexa Console: https://developer.amazon.com/alexa/console/ask > Click "Create Skill" button
+2. Enter a skill name > Select "Custom" model type > Select "Provision your own" backend option > Click "Create Skill" button again
+3. Select "Fact Skill" template > Click "Choose" button
+5. Click "Endpoint" in the left-hand navigation > Replace the ARN in "Default Region" with your own lambda function ARN > Click "Save Endpoints"
